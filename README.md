@@ -1,19 +1,43 @@
-![HEAD](https://socialify.git.ci/tomakino/CSLyric/image?description=1&descriptionEditable=%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%8A%B6%E6%80%81%E6%A0%8F%E6%98%BE%E7%A4%BA%E6%AD%8C%E8%AF%8D%E7%9A%84Xposed%E6%A8%A1%E5%9D%97&font=Jost&language=1&name=1&owner=1&stargazers=1&theme=Auto)
-![图片](demo.png)
+# 词幕
+[![GitHub Release](https://img.shields.io/github/v/release/tomakino/CSLyric)](https://github.com/tomakino/CSLyric/releases) [![Static Badge](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5-QQ%E7%BE%A4-blue?logo=qq)](https://qm.qq.com/q/z1gSTZprDW)
 
-## 已支持软件
-| 名称          |     基于版本 | 歌词提供方式  |
-|-------------|---------:|---------|
-| QQ音乐        | 13.6.5.8 | Hook    |
-| 网易云音乐       |   9.1.05 | 魅族状态栏歌词 |
-| 酷狗音乐        |   12.3.6 | Hook    |
-| Salt Player |   10.4.3 | 魅族状态栏歌词 |
-| Apple Music |    4.8.0 | Hook    |
-| 酷我音乐        | 10.9.1.1 | 车载蓝牙歌词  |
-| 酷狗音乐概念版     |    3.5.2 | 车载蓝牙歌词  |
 
-## Repo
-https://github.com/Xposed-Modules-Repo/com.makino.cslyric
+词幕是一个`Xposed模块`，提供系统通知栏歌词扩展功能。使用非常简单，只需要安装激活后并重启，微调设置就可以使用了😁
 
-## 主页
-https://github.com/tomakino/CSLyric/
+## 支持的系统
+- Android 8.1 ~ Android 15
+
+## **支持的播放器**
+
+| 名称                                                                          |     基于版本      |    歌词来源     |
+|-----------------------------------------------------------------------------|:-------------:|:-----------:|
+| <img src="res/logo/am.png" width="24" height="24"> Apple Music              |     4.8.0     |    Hook     |
+| <img src="res/logo/netease.png" width="24" height="24"> 网易云音乐               |    9.1.05     |    Hook     |
+| <img src="res/logo/hihonor_cloudmusic.png" width="24" height="24"> 网易云音乐荣耀版 |    1.0.22     |    Hook     |
+| <img src="res/logo/qqmusic.png" width="24" height="24"> QQ音乐                |   13.6.5.8    |    Hook     |
+| <img src="res/logo/kugou.png" width="24" height="24"> 酷狗音乐                  |    12.3.6     |    Hook     |
+| <img src="res/logo/salt.png" width="24" height="24"> Salt Player            |    10.4.3     |   魅族状态栏歌词   |
+| <img src="res/logo/kuwo.png" width="24" height="24"> 酷我音乐                   |   10.9.1.1    |   车载蓝牙歌词    |
+| <img src="res/logo/kugou_lite.png" width="24" height="24"> 酷狗音乐概念版          |     3.5.2     |   车载蓝牙歌词    |
+| <img src="res/logo/lx.png" width="24" height="24"> LX Music                 |     1.6.0     |    桌面歌词     |
+| <img src="res/logo/music_free.png" width="24" height="24"> MusicFree        |     0.4.3     |    桌面歌词     |
+| <img src="res/logo/gramophone.png" width="24" height="24"> Gramophone       |    1.0.15     |   魅族状态栏歌词   |
+| <img src="res/logo/qqmusic.png" width="24" height="24"> 小米音乐                |   4.22.58-R   |    Hook     |
+| <img src="res/logo/spotify.png" width="24" height="24"> Spotify             |  9.0.46.496   |    Hook     |
+| <img src="res/logo/poweramp.png" width="24" height="24"> Poweramp           | build-991-uni | 音乐元数据（内嵌歌词） |
+
+`基于版本`为建议最低使用版本，使用更高版本可能存在兼容性问题。
+
+## 演示
+
+| 网易云音乐                                                       | QQ音乐                                                            | Spotify                                                         |
+|-------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------|
+| <img  src="res/demo/demo_163.gif" width="205" height="254"> | <img  src="res/demo/demo_qqmusic.gif" width="200" height="244"> | <img  src="res/demo/demo_spotify.gif" width="205" height="183"> |
+
+| Apple Music                                                | Apple Music 2                                               |
+|------------------------------------------------------------|-------------------------------------------------------------|
+| <img  src="res/demo/demo_am.gif" width="204" height="238"> | <img  src="res/demo/demo_am2.gif" width="204" height="238"> |
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tomakino/CSLyric&type=Date)](https://www.star-history.com/#tomakino/CSLyric&Date)
